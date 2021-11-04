@@ -10,6 +10,7 @@ Jeżeli format nie zostanie sprecyzowany, API nie wykona zadania i zwróci jedyn
 Wzór zastosowania http://localhost:8080/show_occurences/format/tekst_do_wpisania lub http://localhost:8080/show_occurences/format/tekst_do_wpisania/podtekst_do_szukania
 
 R: http://localhost:8080/show_occurences/txt/aw2k9&MAaw/aw
+
 A:
 Special characters:1
 Whitespaces:0
@@ -19,10 +20,12 @@ Lowercase letters:5
 Uppercase letters:2
 
 R: http://localhost:8080/show_occurences/json/aw2k9&MAaw
+
 A:
 {"Special characters":1,"Whitespaces":0,"Digits":2,"Lowercase letters":5,"Uppercase letters":2}
 
 R: http://localhost:8080/show_occurences/xml/aw2k9&MAaw/aw
+
 A:
 <?xml[Space]version="1.0"[Space]encoding="UTF-8"?>
 <Occurences>
@@ -35,6 +38,7 @@ A:
 </Occurences>
 
 R: http://localhost:8080/show_occurences/csv/aw2k9&MAaw/aw
+
 A:
 "Special characters",1
 "Whitespaces",0
