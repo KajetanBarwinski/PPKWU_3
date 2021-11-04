@@ -29,12 +29,12 @@ R: http://localhost:8080/show_occurences/xml/aw2k9&MAaw/aw
 A:
 <?xml[Space]version="1.0"[Space]encoding="UTF-8"?>
 <Occurences>
-<Special-characters>1</Special-characters>
-<Whitespaces>0</Whitespaces>
-<Combination>2</Combination>
-<Digits>2</Digits>
-<Lowercase-letters>5</Lowercase-letters>
-<Uppercase-letters>2</Uppercase-letters>
+	<Special-characters>1</Special-characters>
+	<Whitespaces>0</Whitespaces>
+	<Combination>2</Combination>
+	<Digits>2</Digits>
+	<Lowercase-letters>5</Lowercase-letters>
+	<Uppercase-letters>2</Uppercase-letters>
 </Occurences>
 
 R: http://localhost:8080/show_occurences/csv/aw2k9&MAaw/aw
