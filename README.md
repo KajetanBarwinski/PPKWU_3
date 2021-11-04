@@ -27,15 +27,19 @@ A:
 R: http://localhost:8080/show_occurences/xml/aw2k9&MAaw/aw
 
 A:
-<?xml[Space]version="1.0"[Space]encoding="UTF-8"?>
-<Occurences>
-	<Special-characters>1</Special-characters>
-	<Whitespaces>0</Whitespaces>
-	<Combination>2</Combination>
-	<Digits>2</Digits>
-	<Lowercase-letters>5</Lowercase-letters>
-	<Uppercase-letters>2</Uppercase-letters>
-</Occurences>
+<code>
+	<pre>
+	&lt;?xml[Space]version="1.0"[Space]encoding="UTF-8"?&gt;
+		&lt;Occurences&gt;
+		&lt;Special-characters&gt;1&lt;/Special-characters&gt;
+		&lt;Whitespaces&gt;0&lt;/Whitespaces&gt;
+		&lt;Combination&gt;2&lt;/Combination&gt;
+		&lt;Digits&gt;2&lt;/Digits&gt;
+		&lt;Lowercase-letters&gt;5&lt;/Lowercase-letters&gt;
+		&lt;Uppercase-letters&gt;2&lt;/Uppercase-letters&gt;
+	&lt;/Occurences&gt;
+	</pre>
+</code>
 
 R: http://localhost:8080/show_occurences/csv/aw2k9&MAaw/aw
 
